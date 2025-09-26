@@ -1,3 +1,4 @@
+/* Container */
 .eventplanner-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -8,7 +9,7 @@
 /* Header */
 .eventplanner-container header {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .eventplanner-container header h1 {
@@ -19,17 +20,17 @@
 /* Description Section */
 .description {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .description p {
   font-size: 1.1rem;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .get-started-button {
   padding: 10px 20px;
-  background-color: #2832c2;
+  background-color: #e75480;
   color: white;
   border: none;
   border-radius: 5px;
@@ -37,30 +38,139 @@
 }
 
 .get-started-button:hover {
-  background-color: #1d2494;
+  background-color: #ffa8c2;
 }
 
 /* Events Categories Section */
 .events_categories {
   display: flex;
-  justify-content: space-between; /* pushes left, middle, right */
-  margin-bottom: 40px;
+  justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 .events_categories ul {
   list-style-type: none;
   padding: 0;
-  width: 30%; /* each column takes about 1/3 of space */
+  width: 30%;
 }
 
 .events_categories h2 {
+  border: 2px solid #e75480;
   font-size: 1.5rem;
-  margin-bottom: 10px;
-  color: #444;
+  margin-bottom: 15px;
+  padding: 8px;
+  text-align: center;
+  color: #000;
 }
 
 .events_categories li {
   padding: 5px 0;
   font-size: 1rem;
-  color: #555;
+  color: #000;
 }
+
+/* Features Section */
+.features {
+  margin-bottom: 60px;
+}
+
+.features h2 {
+  border: 2px solid #e75480;
+  padding: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.features ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.features li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Testimonials Section */
+.testimonials {
+  margin-bottom: 60px;
+}
+
+.testimonials h2 {
+  border: 2px solid #e75480;
+  padding: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.testimonials .testimonial {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.testimonials .testimonial p {
+  font-style: italic;
+  margin: 10px 0;
+  color: #000;
+}
+
+.testimonials .author {
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact {
+  margin-bottom: 60px;
+}
+
+.contact h2 {
+  border: 2px solid #e75480;
+  padding: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: #e75480;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #ffa8c2;
+}
+
+body {
+  background: linear-gradient(to bottom, #cbb5f2, #d65978); 
+}   
+

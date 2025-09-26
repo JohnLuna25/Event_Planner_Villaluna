@@ -6,7 +6,7 @@ class EventPlanner extends Component {
     return (
       <div className="eventplanner-container">
         <header>
-          <h1>Event Planner Application</h1>
+          <h1>Welcome to Event Planner</h1>
         </header>
 
         <section className="description">
@@ -53,16 +53,57 @@ class EventPlanner extends Component {
 
 
         <section className="features">
-          <p>This is the features section.</p>
+
+            <h2>Features</h2>
+
+            <ul>
+                <li>Easy Event Creation & Management</li>
+                <li>Customizable Event Templates</li>
+                <li>Guest List Management</li>
+                <li>Real-time Collaboration</li>
+                <li>Reminders & Notifications</li>
+            </ul>
+
         </section>
+
 
         <section className="testimonials">
-          <p>This is the testimonials section.</p>
+
+            <h2>Testimonials</h2>
+
+            <div className="testimonial">
+                <p>"Event Planner made orginizing my wedding a breeze. Highly recommended."</p>
+                <p className = "author">- Emily Johnson</p>
+                
+            </div>
+
+            <div className="testimonial">
+                <p>"I use Event Planner for all my corporate events. It saves me so much time and effort!"</p>
+                <p className = "author">- John Smith</p>
+
+            </div>
+
         </section>
 
+
         <section className="contact">
-          <p>This is the contact section.</p>
+
+          <h2>Contact Us</h2> 
+
+            <form>
+                <input type = "text" placeholder = "Name:"/>
+
+                <input type = "email" placeholder = "Em@il:"/>
+
+                <textarea placeholder = "Message:"></textarea>
+
+                <button className = "submit-button">Send</button>
+
+            </form>
+        
         </section>
+
+
       </div>
     );
   }
