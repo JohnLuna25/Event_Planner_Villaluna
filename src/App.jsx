@@ -1,6 +1,6 @@
 import React from "react";
-import EventPlanner from "./Components/EventPlanner"; // adjust path if needed
-import "./App.css"; // optional, for global styles
+import EventPlanner from "./Components/EventPlanner";
+import "./App.css";
 
 function App() {
   return (
